@@ -1,8 +1,10 @@
 Préparcours Semaine 0
 <br/>
-MERCREDI
+MARDI
 <br/>
 <br/>
 Fichiers: https://github.com/rumkox/rumkox.github.io
 <br/>
-Page web: https://rumkox.github.io/
+Page Web: https://rumkox.github.io/motherfuckingwebsite/motherfuckingwebsite.html
+<br/>
+Plus d'information: https://rumkox.github.io/

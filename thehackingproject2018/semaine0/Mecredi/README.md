@@ -7,3 +7,5 @@ MERCREDI
 Fichiers: https://github.com/rumkox/rumkox.github.io
 <br/>
 Page web: https://rumkox.github.io/bmfwjavascript/bmfwjavascript.html
+<br/>
+Plus d'information: https://rumkox.github.io/
