@@ -1,3 +1,8 @@
+Préparcours Semaine 0
+<br/>
+JEUDI
+<br/>
+<br/>
 -exo_03.rb 
 <br/>
 ----Peux-tu me dire ce qu'il se passe avec # devant la ligne 2?<br/>
