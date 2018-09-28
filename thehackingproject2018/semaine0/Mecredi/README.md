@@ -4,8 +4,8 @@ MERCREDI
 <br/>
 <br/>
 
-Fichiers: https://github.com/rumkox/rumkox.github.io
+Fichiers: https://github.com/rumkox/rumkox.github.io/tree/master/bmfwjavascript
 <br/>
 Page web: https://rumkox.github.io/bmfwjavascript/bmfwjavascript.html
 <br/>
-Plus d'information: https://rumkox.github.io/
+Voir un peu plus  https://github.com/rumkox/rumkox.github.io et https://rumkox.github.io/
