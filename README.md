@@ -7,8 +7,8 @@ Dans ce dossier, je vais laisser ma progression au niveau de ma formation chez T
 <br/>
 </h4>
 <h4><ul>
-	<a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine0"> Semaine 0</a>
-	<a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine1"> Semaine 1</a><li/>
+	<li><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine0"> Semaine 0</a></li>
+	<li><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine1"> Semaine 1</a></li>
 </h4>
 <br/><br/><br/>
 <h3> Camilo Orozco Rodas<br/>
