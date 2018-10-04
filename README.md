@@ -9,13 +9,11 @@ Dans ce dossier, je vais laisser ma progression au niveau de ma formation chez T
 <h3>1.<a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine0">  Semaine 0</a><br/>
 2.<a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine1">  Semaine 1</a></h3>
 
-<h3><ul>1.<a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine0"> Semaine 0</a>
-<li><h5><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine0/Lundi">Lundi</a></h5></li>
-</ul>
-<br/>
-	<ul><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine1"> Semaine 1</a>
+<h4><ul>
+	<li><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine0"> Semaine 0</a><li/>
+	<li><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine1"> Semaine 1</a><li/>
 	</ul>
-</h3>
+</h4>
 
 
 
