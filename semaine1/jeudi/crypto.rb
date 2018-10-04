@@ -16,24 +16,43 @@ def princi(vari1)
 end
 
 def maxtab
-	puts "Donne moi la crypto qui a la plus grosse valeur #{princi(valftsin(@listciffre)).max_by {|k,v| v}}"
+	puts "Donne moi la crypto qui a la plus grosse valeur = #{princi(valftsin(@listciffre)).max_by {|k,v| v}}"
+	puts '-' * 20
 end
 
 def mintab
-	puts "Donne moi la crypto qui a la plus petite valeur #{princi(valftsin(@listciffre)).min_by {|k,v| v}}"
+	puts "Donne moi la crypto qui a la plus petite valeur = #{princi(valftsin(@listciffre)).min_by {|k,v| v}}"
+	puts '-' * 20
 end
 
-def cbcrip
-	cont = @listlettre.grep(/coin/)
-	puts "#{cont.count}"
+def cbcrip(chose)
+	list6000 = []
+	chose.each do |item,val|
+		if val < 6000
+			list6000 << item
+		end
+	end  
+	return list6000
+end
+def cbcrip2(chose)
+		finn = princi(valftsin(@listciffre)).delete_if { |item,val| val >= 6000}
+	return finn
 end
 
-	
+def method_name(chose2)
+	puts '-' * 20
+	puts "Quel est le cours le plus haut parmi celle-la ? = #{finalfinal = chose2.max_by {|k,v| v}}"
+end
 def perform
 	valftsin(@listciffre)
 	princi(valftsin(@listciffre))
 	maxtab
 	mintab
-	cbcrip
+	puts "Sors moi tout les devises, dont le cours est inférieur à 6000."
+	puts "Il y a #{cbcrip2(princi(valftsin(@listciffre))).size} devises."
+	puts "Affichage des devises"
+	puts cbcrip2(princi(valftsin(@listciffre)))
+#	puts "Quel est le cours le plus haut parmi celle-la ? #{method_name}"
+	method_name(cbcrip2(princi(valftsin(@listciffre))))
 end
 perform
