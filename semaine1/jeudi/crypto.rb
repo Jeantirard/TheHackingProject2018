@@ -25,6 +25,12 @@ def mintab
 	puts '-' * 20
 end
 
+def coininclude
+	nbnamewithcoin = @listlettre.grep(/coin/i)
+	puts "Combien de crypto contiennent le mot \"coin\" ? #{nbnamewithcoin.count}"
+	puts '-' * 20
+end
+
 def cbcrip(chose)
 	list6000 = []
 	chose.each do |item,val|
@@ -48,6 +54,7 @@ def perform
 	princi(valftsin(@listciffre))
 	maxtab
 	mintab
+	coininclude
 	puts "Sors moi tout les devises, dont le cours est inférieur à 6000."
 	puts "Il y a #{cbcrip2(princi(valftsin(@listciffre))).size} devises."
 	puts "Affichage des devises"
