@@ -9,7 +9,7 @@ Dans ce dossier, je vais laisser ma progression au niveau de ma formation chez T
 <h4><ul>
 	<li><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine0"> Semaine 0</a></li>
 	<li><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine1"> Semaine 1</a></li>
-</h4>
+</ul></h4>
 <br/><br/><br/>
-<h3> Camilo Orozco Rodas<br/>
-Slack = @Camilo.ES <br/>
+<h3><a href="https://twitter.com/Camilo42Es?lang=fr"> Twiiter</a><br/>
+Slack = @Camilo.ES <br/></h3>
