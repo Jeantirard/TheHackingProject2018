@@ -11,5 +11,5 @@ Dans ce dossier, je vais laisser ma progression au niveau de ma formation chez T
 	<li><a href="https://github.com/rumkox/TheHackingProject2018/tree/master/semaine1"> Semaine 1</a></li>
 </ul></h4>
 <br/><br/><br/>
-<h3><a href="https://twitter.com/Camilo42Es?lang=fr"> Twiiter</a><br/>
+<h3>Voici mon<a href="https://twitter.com/Camilo42Es?lang=fr"> Twiiter</a><br/>
 Slack = @Camilo.ES <br/></h3>
