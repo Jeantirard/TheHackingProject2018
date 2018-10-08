@@ -15,10 +15,12 @@ def who_is_bigger(num1, num2, num3)
 end
 def reverse_upcase_noLTA(num1)
 	return num1.upcase.reverse.tr('TAL','')
+	#return num1.upcase.reverse.delete"LTA"
 end
 def array_42(arra)
 	arra.include?(42) # .include?() il cherche ce qui est dedans des paranthèse, s'il trouve le numero ou le texte il dit true sinon false
 end
-def magic_array(arra)
-	
+def magic_array(a)
+	(((a.flatten.delete_if{|x|x%3==0})).sort.map{|x|x*2}).uniq
+	#58 :c  BONUS : You can do this in one line less than 55 chars
 end
