@@ -26,7 +26,7 @@ def menudisplay
 	puts "Bonjour!"
 	puts "*" * 20
 	puts "Tapez 1 pour voir la cripto en face du price"
-	puts "Tapez 2 pour voir Pour voir toutes les villes de Val D'Oise"
+	puts "Tapez 2 Pour voir le cours de toutes les cryptomonnaies dans un Array"
 	puts "Tapez 0,une lettre, ou entrée pour arreter le programme"
 end
 
@@ -49,9 +49,14 @@ def display
 	 		y += 1
 	 		end
 		end
-		#if v == 2
+		if v == 2
+			my_array = Array.new
+			namescrypto_array = namescrypto[0]
+			pricecrypto_array = pricecrypto[0]
+			my_hash = Hash[namescrypto_array.zip(pricecrypto_array)]
+			p my_array << my_hash
 
-		#end
+		end
 		if (v >= 3 || v < 0)
 			p "Petit malin"
 		end
