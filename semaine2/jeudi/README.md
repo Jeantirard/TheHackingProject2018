@@ -1,7 +1,7 @@
 <h1>The Hacking Project</h1>
 <br/>
 <h2>Semaine 2 - Jeudi = Le scrappeur fou</h2>
-<h4>Bonjour!!</h4>nokogiri
+<h4>Bonjour!!</h4>
 <h5>Gem nécessaire = nokogiri</h5>
 <br/>
 <h5>co-programmeur = Kathleen -> Slack = @kath</h5>
