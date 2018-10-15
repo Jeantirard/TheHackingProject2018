@@ -24,7 +24,6 @@ def get_the_email_of_a_townhal_from_its_webpage(url)
   	else
   		puts link.content
   	end
-  	#binding.pry
 	end
 end
 
@@ -32,7 +31,6 @@ def get_all_the_urls_of_val_doise_townhalls
 	my_array = Array.new
 	b = "http://annuaire-des-mairies.com/"
 	doc = Nokogiri::HTML(open('http://annuaire-des-mairies.com/val-d-oise.html'))
-	#binding.pry
 	doc.css('.Style20').css('.lientxt').map do |a|
 		post_name = b + a['href'][2..-1]
 		my_array.push(post_name)
@@ -65,13 +63,14 @@ def display
 				get_the_email_of_a_townhal_from_its_webpage(x)
 			end
 		end
-		if (v >= 3 || v < 0)
-			p "Petit malin"
-		end
-		if v == 9
+		if v == 3
 			menudisplay
 		end
-		puts "Menu oublié? tapez 9"
+		if (v > 3 || v < 0 )
+			p "Petit malin"
+		end
+
+		puts "Menu oublié? tapez 3"
 	end
 end
 

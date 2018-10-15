@@ -35,21 +35,28 @@ my_client.update('Mon premier tweet en ruby !!!!')
 	#Seguir alguna persona
 #client.follow("Camilo42Es")
 my_client.update('Bonjour monde!')
-my_client.search("colombia", result_type: "recent").take(3).collect do |tweet|
+my_client.search("James Rodriguez", result_type: "recent").take(3).collect do |tweet|
   "#{tweet.user.screen_name}: #{tweet.text}"
 end
 
 # la comanda pasada busca los id de los tweet, y la pasamos a texto con la siguiente
 # my_client.status(1050042754871508998).text. 
 
-topics = ["France"]
+topics = ["Te amo"]
 my_array = Array.new
 my_stri.filter(track: topics.join(",")) do |object|
-	#binding.pry
   my_array << object.text if object.is_a?(Twitter::Tweet)
   	
   	if my_array.size == 2 
   		break
   	end
 end
+
+
 binding.pry
+
+
+topics = ["psg"]
+my_stri.filter(track: topics.join(",")) do |object|
+  	p object.text if object.is_a?(Twitter::Tweet)
+end
