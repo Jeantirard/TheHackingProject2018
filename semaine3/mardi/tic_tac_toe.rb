@@ -23,7 +23,7 @@ class Board
 	puts "b  #{@b1} | #{@b2} | #{@b3} "
 	puts "  ---|---|---"
 	puts "c  #{@c1} | #{@c2} | #{@c3} "
-	check_for_winner
+	check_winner
 	end
 
 	def win
@@ -37,7 +37,7 @@ class Board
 		[@a3,@b3,@c3]]
 	end
 
-	def check_for_winner 
+	def check_winner 
   		win.each do |tab| 
     	if tab[0] == "O" && tab[1] == "O" && tab[2] == "O"
       		puts "Le joeur 0 a gañé"
