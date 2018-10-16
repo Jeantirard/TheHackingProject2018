@@ -116,45 +116,51 @@ class Player
 end
 
 class Game
-	puts "Bonjour, nous sommes l'app TIC TAC TOE de la Team Saphyre!"
-	puts "Pour commencer, mettez-vos prenoms"
-	print "Joueur 1 (X) ~: "
-	p1 = gets.chomp
-	print "Joueur 2 (0) ~: "
-	p2 = gets.chomp
-	names =Player.new(p1,p2)
-	puts "#{names.name_player1}! vs #{names.name_player2}!"
-	puts
-	puts"Voici le tic tac toe"
-	go =Board.new(" ", " ", " ", " ", " ", " ", " ", " ", " ") #j'envois 9 espaces vides.
-	go.print_tic_tac_toe
-	#binding.pry
-	i = 1
-	var1 = 0
-	var2 = 0
-	while i <10
-		i += 1
-		while !go.t1
-		end
-		var1 = go.print_tic_tac_toe(names.name_player1)
-		break if i >= 10 
-
-		if var1 == 10 || var2 == 10
-			i = 10
-		else
+	pp = true
+	while pp == true
+		puts "Bonjour, nous sommes l'app TIC TAC TOE de la Team Saphyre!"
+		puts "Pour commencer, mettez-vos prenoms"
+		print "Joueur 1 (X) ~: "
+		p1 = gets.chomp
+		print "Joueur 2 (0) ~: "
+		p2 = gets.chomp
+		names =Player.new(p1,p2)
+		puts "#{names.name_player1}! vs #{names.name_player2}!"
+		puts
+		puts"Voici le tic tac toe"
+		go =Board.new(" ", " ", " ", " ", " ", " ", " ", " ", " ") #j'envois 9 espaces vides.
+		go.print_tic_tac_toe
+		#binding.pry
+		i = 1
+		var1 = 0
+		var2 = 0
+		while i <10
 			i += 1
-			while !go.t2
+			while !go.t1
 			end
-			var2 =go.print_tic_tac_toe(names.name_player2)
+			var1 = go.print_tic_tac_toe(names.name_player1)
+			break if i >= 10 
+
 			if var1 == 10 || var2 == 10
 				i = 10
-			end
-		end 
-		
-		
-		puts i
+			else
+				i += 1
+				while !go.t2
+				end
+				var2 =go.print_tic_tac_toe(names.name_player2)
+				if var1 == 10 || var2 == 10
+					i = 10
+				end
+			end 
+		end
+		p "Merci!!"
+		p "si tu veux rejouer écris n'importe quoi"
+		p "si tu veux arreter le programme tapes 1 ~: "
+		oliii = gets.to_i
+		if oliii == 1
+			break
+		end
 	end
-	p "hola"
 end
 
 lacejeu = Game.new
