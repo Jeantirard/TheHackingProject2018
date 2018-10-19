@@ -1,0 +1,16 @@
+{
+  "marseille": {
+    "mail": "asniere@gmail.com",
+    "departement": 13,
+    "twitter": "@brunogilles13"
+  },
+  "foo": {
+    "mail": "asniere@gmail.com",
+    "departement": 13
+  },
+  "nice": {
+    "mail": "nice@nice.com",
+    "departement": 13,
+    "twitter": "@koto_alex"
+  }
+}

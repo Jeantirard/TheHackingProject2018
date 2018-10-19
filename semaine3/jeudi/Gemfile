@@ -1,0 +1,21 @@
+source "https://rubygems.org"
+ruby'2.5.1'
+gem 'nokogiri'
+gem 'json'
+gem 'dotenv'
+gem "google_drive"
+gem "spreadsheet"
+gem 'csv'
+gem 'watir'
+gem 'mail'
+gem 'gmail'
+gem 'googleauth'
+gem 'fileutils'
+gem 'rubocop', '~> 0.57.2'
+gem 'pry'
+gem "relaxed-rubocop"
+gem 'twitter'
+gem 'watir'
+gem 'httparty'
+gem 'selenium-webdriver'
+gem 'colorize'

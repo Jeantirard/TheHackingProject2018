@@ -1,0 +1,7 @@
+.idea
+.env
++.DS_Store*
+config.json
+Gemfile.lock
+credentials.json
+*.yaml
