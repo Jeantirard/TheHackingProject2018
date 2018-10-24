@@ -1,5 +1,3 @@
-require 'csv'
-
 class Gossip
 
 	attr_reader :author, :content
@@ -17,10 +15,9 @@ class Gossip
 
 	def self.all
 		all_gossips = []
-		CSV.foreach("./db/gossip.csv") do |row|
-			all_gossips << row
+		CSV.read("./db/gossip.csv").each do |csv_line|
+			all_gossips << Gossip.new(csv_line[0], csv_line[1])
 		end
-		return p all_gossips
+		return all_gossips
 	end
 end
-
