@@ -1,6 +1,6 @@
 <h1>The Hacking Project</h1>
 <br/>
-<h2>Semaine 4 - Mercredi : App 1</h2>
+<h2>Semaine 4 - Mercredi : The_Hacking_Pinterest</h2>
 <h4>Bonjour!!</h4>
 <ul>
 	<li><code> git clone https://github.com/rumkox/TheHackingProject2018.git</code></li>
