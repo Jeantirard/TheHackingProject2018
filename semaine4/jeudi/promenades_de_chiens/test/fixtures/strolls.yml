@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2018-10-25 22:58:35
+  dog: one
+  dogsitter: one
+
+two:
+  date: 2018-10-25 22:58:35
+  dog: two
+  dogsitter: two
