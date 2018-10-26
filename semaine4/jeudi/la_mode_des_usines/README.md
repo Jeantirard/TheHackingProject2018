@@ -1,7 +1,7 @@
 # ![CI status](http://oi68.tinypic.com/ngf2uo.jpg)    
 #  The Hacking Project
 <br/>
-<h2>Semaine 4 - Jeudi: Doctolib</h2>
+<h2>Semaine 4 - Jeudi: Usines</h2>
 <h4>Bonjour!!</h4>
 <ul>
 	<li><code> git clone</code></li>
